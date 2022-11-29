@@ -1,0 +1,147 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@praxxys/vue-utils": "^0.1.1",
+    "@praxxys/vuetify-components": "^0.1.2",
+    "axios": "^0.19.0",
+    "chart.js": "^2.9.3",
+    "com-sarriaroman-photoviewer": "^1.2.5",
+    "cordova-android": "^8.1.0",
+    "cordova-call": "^1.1.6",
+    "cordova-ios": "^5.1.1",
+    "cordova-plugin-add-swift-support": "^2.0.2",
+    "cordova-plugin-androidx": "^2.0.0",
+    "cordova-plugin-androidx-adapter": "^1.1.1",
+    "cordova-plugin-customurlscheme": "^4.4.0",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-facebook4-no-zxing": "^4.2.2",
+    "cordova-plugin-file": "^6.0.1",
+    "cordova-plugin-file-downloader": "^0.4.0",
+    "cordova-plugin-file-md5": "^0.3.3",
+    "cordova-plugin-file-transfer": "^1.7.1",
+    "cordova-plugin-googleplus": "8.5.1",
+    "cordova-plugin-inappbrowser": "^4.0.0",
+    "cordova-plugin-network-information": "^2.0.2",
+    "cordova-plugin-opentok": "^3.4.3",
+    "cordova-plugin-qr-barcode-scanner": "^8.0.3",
+    "cordova-plugin-screen-orientation": "^3.0.2",
+    "cordova-plugin-sign-in-with-apple": "^0.1.2",
+    "cordova-plugin-splashscreen": "^5.0.3",
+    "cordova-plugin-statusbar": "^2.4.3",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "cordova-plugin-wkwebview-engine": "^1.2.1",
+    "cordova-plugin-x-socialsharing": "^6.0.2",
+    "cordova-plugin-zip": "^3.1.0",
+    "cordova-support-google-services": "^1.3.2",
+    "core-js": "^2.6.6",
+    "es6-promise-plugin": "^4.2.2",
+    "fastclick": "^1.0.6",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15",
+    "material-design-icons-iconfont": "^5.0.1",
+    "moment": "^2.24.0",
+    "phonegap-plugin-multidex": "^1.0.0",
+    "phonegap-plugin-push": "^2.3.0",
+    "semver": "^6.3.0",
+    "vee-validate": "^2.2.13",
+    "vue": "^2.6.10",
+    "vue-chartjs": "^3.5.0",
+    "vue-chartkick": "^0.6.0",
+    "vue-clipboard2": "^0.3.1",
+    "vue-graph": "^0.8.7",
+    "vue-infinite-loading": "^2.4.4",
+    "vue-loading-overlay": "^3.3.2",
+    "vue-pull-refresh": "^0.2.7",
+    "vue-router": "^3.0.3",
+    "vue-swipe-actions": "^2.0.0-beta.20",
+    "vue-tawk": "^1.0.1",
+    "vuesax": "^4.0.1-alpha.22",
+    "vuetify": "^2.3.10",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-unit-mocha": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "chai": "^4.1.2",
+    "cordova-android-support-gradle-release": "^3.0.1",
+    "cordova-plugin-facebook4-no-zxing": "4.2.2",
+    "cordova-plugin-file": "^6.0.2",
+    "deepmerge": "^4.0.0",
+    "fibers": "^4.0.1",
+    "node-sass": "^4.9.0",
+    "sass": "^1.22.9",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.3.0"
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.praxxys.ph:52222/boilerplates/vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-qr-barcode-scanner": {
+        "ANDROID_SUPPORT_V4_VERSION": "27.+"
+      },
+      "cordova-plugin-customurlscheme": {
+        "URL_SCHEME": "trinitycare.app.scheme",
+        "ANDROID_SCHEME": " ",
+        "ANDROID_HOST": " ",
+        "ANDROID_PATHPREFIX": "/"
+      },
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-wkwebview-engine": {},
+      "phonegap-plugin-push": {
+        "ANDROID_SUPPORT_V13_VERSION": "27.+",
+        "FCM_VERSION": "17.0.+"
+      },
+      "cordova-plugin-opentok": {},
+      "cordova-plugin-facebook4-no-zxing": {
+        "APP_ID": "2173359722963704",
+        "APP_NAME": "trinityCare",
+        "FACEBOOK_HYBRID_APP_EVENTS": "true",
+        "FACEBOOK_ANDROID_SDK_VERSION": "4.40.0"
+      },
+      "cordova-plugin-androidx": {},
+      "cordova-plugin-androidx-adapter": {},
+      "com-sarriaroman-photoviewer": {},
+      "cordova-call": {},
+      "cordova-plugin-screen-orientation": {},
+      "cordova-plugin-x-socialsharing": {},
+      "cordova-plugin-googleplus": {
+        "REVERSED_CLIENT_ID": "com.googleusercontent.apps.22929204470-4sa116tu30q81papub0re9j179lk68bd",
+        "WEB_APPLICATION_CLIENT_ID": "22929204470-4sa116tu30q81papub0re9j179lk68bd.apps.googleusercontent.com"
+      },
+      "cordova-plugin-sign-in-with-apple": {},
+      "phonegap-plugin-media-stream": {}
+    }
+  }
+}

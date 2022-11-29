@@ -1,0 +1,93 @@
+/*=================================================================================
+|                                   Button                                        |
+=================================================================================*/
+
+/* default button - frm-btn
+----------------------------------------------- */
+// Large height : 60px
+// Small height : 42px
+
+.frm-btn {
+	.v-btn {
+		font-weight: 600;
+		font-size: $font-size-small !important;
+		text-transform: initial;
+	}
+
+	button:focus {
+	    outline: none;
+	}
+
+	.v-btn--disabled {
+	    background-color: $color-lightestGray !important;
+	}
+
+	.v-btn--icon {
+		&.v-btn--disabled {
+			background-color: transparent !important;
+		}
+	}
+
+	.btn--green {
+		background-color: $color-doc-primary2 !important;
+	}
+
+	.btn--gray {
+
+	}
+
+	.btn--yellow {
+
+	}
+
+	.btn--yellow {
+
+	}
+
+	.btn--fb {
+		@extend %fb;
+	}
+
+	.btn--google {
+		@extend %google;
+	}
+}
+
+.frm-btn--fixed {
+	position: fixed;
+	bottom: 60px;
+	z-index: 4;
+	width: 100%;
+	background-color: #fff;
+}
+
+
+/* outline button - frm-btn.frm-btn--outline
+----------------------------------------------- */
+// Large height : 60px
+// Small height : 42px
+
+.frm-btn {
+	&.frm-btn--outline {
+		.v-btn--outlined {
+		    border: thin solid $clr-doc-primary2;
+		    color: $clr-doc-primary2 !important;
+		}
+	}
+}
+
+/* functional button - frm-fnctnl-btn
+----------------------------------------------- */
+.frm-fnctnl-btn {
+	&.frm-fnctnl-btn--green {
+
+	}
+
+	&.frm-fnctnl-btn--yellow {
+		
+	}
+
+	&.frm-fnctnl-btn--red {
+		
+	}
+}

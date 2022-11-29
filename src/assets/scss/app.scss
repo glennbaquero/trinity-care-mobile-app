@@ -1,0 +1,22 @@
+@import '../font/style.css';
+
+@import './_helpers/_variables.scss';
+@import './_helpers/_mixins.scss';
+@import './_helpers/_helpers.scss';
+
+@import './_components/_button.scss';
+@import './_components/_card.scss';
+@import './_components/_colors.scss';
+@import './_components/_containers.scss';
+@import './_components/_dialog.scss';
+@import './_components/_inputs.scss';
+@import './_components/_typography.scss';
+
+@import './_base/general.scss';
+@import './_base/styles.scss';
+@import './_base/auth.scss';
+@import './_base/bottomnav.scss';
+@import './_base/header.scss';
+
+// @import 'general.scss';
+// @import 'style.scss';

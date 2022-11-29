@@ -1,0 +1,36 @@
+/*=================================================================================
+|                                   Card                                          |
+=================================================================================*/
+
+/* card - frm-card
+----------------------------------------------- */
+.frm-card {
+	.overflow-scroll {
+		overflow: auto;
+		max-height: 360px;
+	}
+
+	.review-cntnr {
+		position: relative;
+		padding-bottom: 16px;
+		margin-bottom: 8px;
+
+		&:after {
+			position: absolute;
+			bottom: 0;
+			content: "";
+			width: calc(100% - 32px);
+			height: 1px;
+			background-color: #ddd;
+			margin: 0 16px;
+		}
+
+		&:only-child,
+		&:last-child {
+			padding-bottom: 0;
+			margin-bottom: 0px;
+
+			&:after { display: none; }
+		}
+	}
+}

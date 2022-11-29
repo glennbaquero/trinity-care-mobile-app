@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="56" viewBox="0 0 53 56">
+	<defs>
+		<style>.a{fill:#408c45;}</style>
+	</defs>
+	<g transform="translate(-0.21)">
+		<g transform="translate(0.21)">
+			<g transform="translate(0)">
+				<path class="a" d="M15.608,18.866a1.876,1.876,0,0,0,1.875-1.875V9.679a5.929,5.929,0,1,1,11.859,0v7.312a1.875,1.875,0,0,0,3.75,0V9.679a9.679,9.679,0,1,0-19.357,0v7.312A1.874,1.874,0,0,0,15.608,18.866Z" transform="translate(-1.056)"/>
+				<path class="a" d="M44.073,15.631H34.12v2.338a3.75,3.75,0,1,1-7.5,0V15.631H18.513v2.338a3.75,3.75,0,1,1-7.5,0V15.631H.951a.7.7,0,0,0-.714.91L6.8,43.257a3.845,3.845,0,0,0,3.529,2.719H34.7a3.85,3.85,0,0,0,3.531-2.719l6.558-26.715A.7.7,0,0,0,44.073,15.631Z" transform="translate(-0.21 -0.978)"/>
+			</g>
+		</g>
+	</g>
+	<g id="Check" style="transform: translate(-20px, -22px) scale(0.3);">
+	    <circle id="Ellipse_137" data-name="Ellipse 137" cx="35.309" cy="35.309" r="35.309" style="fill: #000; transform: translate(151px, 176px) scale(1.1); opacity: 0.2;"/>
+	    <circle id="Ellipse_137" data-name="Ellipse 137" cx="35.309" cy="35.309" r="35.309" transform="translate(152.691 175.691)" fill="#ffffff"/>
+	    <path id="Union_2" data-name="Union 2" d="M1732.06-3015.358l-8.817-8.816a6,6,0,0,1,0-8.485,6,6,0,0,1,8.485,0l4.574,4.574,11.672-11.672a6,6,0,0,1,8.485,0,6,6,0,0,1,0,8.485l-15.914,15.914a5.982,5.982,0,0,1-4.243,1.758A5.98,5.98,0,0,1,1732.06-3015.358Z" transform="translate(-1551.354 3241.049)" fill="#408c45"/>
+	  </g>
+</svg>

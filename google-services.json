@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "22929204470",
+    "firebase_url": "https://trinity-care-app.firebaseio.com",
+    "project_id": "trinity-care-app",
+    "storage_bucket": "trinity-care-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22929204470:android:5b1dd716a29d5d5974f8d7",
+        "android_client_info": {
+          "package_name": "com.praxxys.trinitycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22929204470-4sa116tu30q81papub0re9j179lk68bd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.praxxys.trinitycare",
+            "certificate_hash": "0671a8db54a0245fccdbcf2dcc9c90fcb4c596b2"
+          }
+        },
+        {
+          "client_id": "22929204470-6mmkkvfnitstut8jj3fi2pu1u6jdehnf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmA1Pjv47LTKr68Z2ojGQcEuTXZikjxY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22929204470-6mmkkvfnitstut8jj3fi2pu1u6jdehnf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

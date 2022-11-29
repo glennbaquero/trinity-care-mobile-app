@@ -1,0 +1,46 @@
+/*=================================================================================
+|                                   Auth Styling                                  |
+=================================================================================*/
+/*****
+** LOGIN
+*****/
+.auth__login {
+
+	.auth__login-TopCon {
+
+		.auth__login-ImgContainer {
+			height: 100px;
+		}
+
+		.auth__login-ImgCon {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			z-index: 4;
+			width: 100%;
+		}
+	}
+
+	.auth__divider {
+		position: relative;
+
+		&:before {
+			position: absolute;
+			top: -10px;
+			left: 0;
+			right: 0;
+			z-index: 2;
+			display: block;
+			content: "or";
+			width: 50px;
+			margin: auto;
+			color: $color-lighterGray;
+			background-color: $color-white;
+		}
+	}
+}
+
+.policy__textCon {
+	max-height: 300px;
+	overflow-y: auto;
+}

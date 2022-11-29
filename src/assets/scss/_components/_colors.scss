@@ -1,0 +1,42 @@
+/*=================================================================================
+|                                   Colors                                        |
+=================================================================================*/
+
+/* text colors - text-*
+----------------------------------------------- */
+.text-black { color: $color-black !important; }
+.text-white { color: $color-white !important; }
+.text-green { color: $clr-doc-primary1 !important; }
+.text-darkgreen { color: $clr-doc-primary2 !important; }
+.text-dullgreen { color: $clr-doc-primary2 !important; }
+.text-yellow { color: $clr-care-primary1 !important; }
+.text-red { color: $clr-team-primary1 !important; }
+.text-blue { color: $color-blue !important; }
+
+/* background colors - bg-*
+----------------------------------------------- */
+.bg-black { background-color: #000; }
+.bg-white { background-color: #fff; }
+.bg-green { background-color: $clr-doc-primary1; }
+.bg-yellow { background-color: $clr-care-primary1 }
+.bg-red { background-color: $clr-team-primary1 !important; }
+.bg-blue { background-color: $color-blue; }
+.bg-gray {  }
+.bg-lightgray {  }
+.bg-transparent { background-color: transparent !important; }
+
+.bg--white { background: $color-white !important; }
+.bg--f4f4f4 { background: #f4f4f4 !important; }
+.bg--white,
+.bg--f4f4f4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    // bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}
